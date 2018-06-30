@@ -1,0 +1,122 @@
+body {
+    background: url(../images/fondocss.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+
+
+		#container{margin: 0 10% 10% 10%;}
+		#sitio{color: #A4A4A4; font-family: algerian, arial, dark comic;}
+		#skate{color: #64FE2E;}
+		#test{font-size: 12px;}
+		#img{text-align: center;}
+		.menu{color: #000;}
+		.mih2 {color: #A4A4A4;}
+		.pieparrafo{background-color: #000; color: #fff;}
+		p{text-align: justify; font-size: 20px;}
+	label{font-weight: bold;}
+     a:link{color: #ccc;}
+     a:hover{color: #2ed8fe;}
+     a:active{color: #ccc;}
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #252932;
+	margin-bottom: 20px
+}
+
+header .logo{
+	color: #f2f2f2; 
+	font-size: 50px;
+	line-height: 200px;
+	float:left;
+}
+
+header nav{
+	float: right;
+	line-height: 200px;
+}
+
+header nav a{
+	display: inline-block;
+	color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+header nav a:hover{
+	background: #f56f3a;
+	border-radius:50px;
+}
+
+.header2 {
+	position: fixed;
+	height: 100px;
+}
+
+.header2 {
+	line-height:100px; 
+	font-size:30px;
+}
+
+.header2 nav{
+	line-height: 100px;
+}
+
+
+	div#contenedor{
+		width: 100%;
+		height: 1100px;
+        background-color: gray;
+		
+	}	
+
+	div#body{
+		width: 65%;
+		height: 1000px;
+		background-color: #A4A4A4; 
+	}	
+
+    div#menu{
+    	width: 100%; 
+    	height: 150px;
+    	
+    }
+     
+   
+
+    .paralax{
+    	background: #A4A4A4 20% 20%;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-attachment: fixed;
+    }
+       
+       #zapatillas1{
+       	background-image: url('../images/zapatillas1.jpg');
+       }
+
+        #zapatillas2{
+       	background-image: url('../images/zapatillas2.jpg');
+       }
+
+        #zapatillas3{
+       	background-image: url('../images/zapatillas3.jpg');
+       }
+
+        #zapatillas4{
+       	background-image: url('../images/zapatillas4.png');
+       }
+
+
+	
+
+   

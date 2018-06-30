@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+form{
+	width: 500px;
+	height: auto;
+	background: #73bff6;
+}
+
+#img{
+	width: 150px;
+	background: white;
+	border-radius: 100px;
+}

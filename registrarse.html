@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Registrate</title>
+  <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+  <form action="" class="login">
+    <h3 class="text-center">Registrate</h3>
+    <label for="Nombre">sexo</label>
+    <input type="radio" name="sexo" value="hombre" checked>Hombre
+    <input type="radio" name="sexo" value="mujer" checked>Mujer
+    <div class="form-group">
+      <label for="Nombre">Nombres</label>
+      <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Escribe tu nombre">
+    </div>
+    <div class="form-group">
+      <label for="Pass">Apellidos</label>
+      <input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Escribe tu apellido">
+    </div>
+    <div class="form-group">
+      <label for="Email">Email</label>
+      <input type="text" class="form-control" name="Email" id="Email" placeholder="Escribe tu correo">
+    </div>
+    <div class="form-group">
+      <label for="Pass">Contraseña</label>
+      <input type="password" class="form-control" name="Pass" id="Pass" placeholder="Escribe tu Contraseña">
+    </div>
+    <div class="form-group">
+      <label for="phone">Telefono</label>
+      <input type="text" class="form-control" name="phone" id="phone" placeholder="Escribe tu Telefono">
+    </div>
+
+    <div class="form-group">
+      <label for="Pass">Confirmar Contraseña</label>
+      <input type="password" class="form-control" name="Pass" id="Pass" placeholder="Escribe tu Contraseña">
+    </div>
+  <p>
+    <label>Año de petición</label>
+      <select name="anio">
+        <script type="text/javascript">
+          var i = 2018;
+          var f = 1960;
+          while(i>f){
+            document.write("<option>" + i + "</option>");
+            i--;
+          }
+        </script>
+      </select>
+  </p>
+    <p class="text-center">
+      <button class="btn btn-primary btn-block">Registrar</button>
+    </p>
+
+  </form>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
